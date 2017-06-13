@@ -1,7 +1,6 @@
-A groovy modbus library
-=======================
+A fork of stephane/libmodbus with RS485 echo support and aditional protocols.[IBERCOMP/485, MT/232]
+=============================================================================
 
-[![Build Status](https://travis-ci.org/stephane/libmodbus.svg?branch=master)](https://travis-ci.org/stephane/libmodbus)
 
 Overview
 --------
@@ -61,6 +60,9 @@ Documentation
 
 The documentation is available [online](http://libmodbus.org/documentation) or
 as manual pages after installation.
+
++ADDED+
+ modbus_rtu_set_echohw_mode(ctx, MODBUS_RTU_HAS_ECHOHW );
 
 The documentation is based on
 [AsciiDoc](http://www.methods.co.nz/asciidoc/).  Only man pages are built

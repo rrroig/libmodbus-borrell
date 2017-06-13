@@ -1,3 +1,9 @@
+libmodbus-borrell 0.0.1 (2017-06-13)
+============================ 
+
+- Added 485 echo support, based on a patch by Jaime Alberto Silva for libmodbus version 3.1.0, ported to 3.1.4
+
+
 libmodbus 3.1.4 (2016-05-28)
 ============================
 
